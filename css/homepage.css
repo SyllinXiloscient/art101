@@ -1,6 +1,37 @@
 /* this css file will only style the homepage of our site */
 
-.Tsum Malleus {
+h1 {
+  font-family: serif;
+  font-style:normal;
+  font-weight: 1000;
+  color: #591a6e;
+  font-size: 280%;
+  text-align: left;
+}
+
+h2 {
+  font-family: serif;
+  font-style: oblique;
+  font-weight: 1000;
+  color: #591a6e;
+  font-size: 250%;
+  text-align: center;
+}
+
+p {
+  font-family:cursive;
+  text-align: center;
+}
+
+.TsumMalleus {
   margin: 10px;
-  max-width: 200px;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
 }
