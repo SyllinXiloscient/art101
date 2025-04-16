@@ -1,6 +1,21 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+
+.Art101LocalFileStructure {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
