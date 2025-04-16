@@ -2,18 +2,17 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
 
 .Art101LocalFileStructure {
   margin: 10px;
   max-width: 75%;
   display: block;
   margin: auto;
-}
-
-.caption {
-  font-family: cursive;
-  font-size: 77%;
-  text-align: center;
 }
 
 .minor-section {
