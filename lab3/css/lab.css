@@ -8,16 +8,16 @@
   text-align: center;
 }
 
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
 .Art101LocalFileStructure {
   margin: 10px;
   max-width: 75%;
   display: block;
   margin: auto;
 }
-
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
