@@ -13,7 +13,7 @@ h2 {
   font-family: serif;
   font-style: oblique;
   font-weight: 1000;
-  color: #591a6e;
+  color: #326c9b;
   font-size: 250%;
   text-align: center;
 }
@@ -22,7 +22,7 @@ h3 {
   font-family: serif;
   font-style: normal;
   font-weight: 1000;
-  color: #591a6e;
+  color: #326c9b;
   font-size: 150%;
   text-align: center;
 }
@@ -137,6 +137,6 @@ ul.music {
 .minor-section {
   padding: 10px;
   margin-bottom: 15px;
-  border: double 10px #084110;
+  border: double 10px #1e556a;
   background-color: #c3daf6;
 }
