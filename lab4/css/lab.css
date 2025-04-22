@@ -6,4 +6,96 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+ }
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
+
+#content {
+  background-color: #732130;
+  width: 1450px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 15 px;
+  border: ridge 7px #9d97b3;
+  font-size: 20px;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 3px #603787;
+    background-color: #e8a9d9;
+}
+
+.minor-section-b {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: double 7px #752029;
+  background-color: #bbe8b9;
+}
+
+.minor-section-c {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: ridge 5px #9a0000;
+  background-color: #7b7b7b;
+}
+
+h1 {
+  font-family: serif;
+  font-style: oblique;
+  font-weight: 1000;
+  color: #58da4c;
+  font-size: 250%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#4b0165;
+    font-variant: small-caps;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#890c0c;
+  font-variant: small-caps;
+}
+
+p {
+  font-family: cursive;
+  font-size:85%;
+  text-indent: 30px;
+  margin-left: 10px;
+}
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+
+}
+
+.twstpseudocodeoutline {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.stickspseudocodeoutline {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.sticksjscomments {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
