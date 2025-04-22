@@ -38,33 +38,33 @@
 		  // Then player loses and opponent wins
 
 // Taking History Lessons in Twisted Wonderland
-// Click the Twisted Wonderland app icon to start the game on the device
-// Accept user input
-// Wait for the game to load
-// User is prompted to tap the screen at the title screen
-// Accept user input
-// At the home screen, navigate to the “Lessons” tile and click it
-// Accept user input
-// Scroll through the dorm tiles and navigate to the tile that corresponds to the desired study partner
-// Accept user input
-// Click the dorm tile that corresponds to the desired study partner
-// Accept user input
-// Click the tile for the desired study partner
-// Accept user input
-// Navigate to the “history” tile and click it
-// Accept user input
-// Click on one of the empty character slots and select the character card that user wishes to level up
-// Accept user input
-// Repeat step 16 until all five character slots are filled
-// Accept user input
-// Click the start button
-// Accept user input
-// Select how to proceed with lesson
-	// Click the “loop” button to automatically repeat the same lesson until user’s lesson points run out
-	// Click the “auto” button to automatically play through one lesson
-	// Manually tap the screen to go through one (of seven) character turns
-// Accept user input
-// Lessons will proceed
+  // Click the Twisted Wonderland app icon to start the game on the device
+  // Accept user input
+  // Wait for the game to load
+  // User is prompted to tap the screen at the title screen
+  // Accept user input
+  // At the home screen, navigate to the “Lessons” tile and click it
+  // Accept user input
+  // Scroll through the dorm tiles and navigate to the tile that corresponds to the desired study partner
+  // Accept user input
+  // Click the dorm tile that corresponds to the desired study partner
+  // Accept user input
+  // Click the tile for the desired study partner
+  // Accept user input
+  // Navigate to the “history” tile and click it
+  // Accept user input
+  // Click on one of the empty character slots and select the character card that user wishes to level up
+  // Accept user input
+  // Repeat step 16 until all five character slots are filled
+  // Accept user input
+  // Click the start button
+  // Accept user input
+  // Select how to proceed with lesson
+    // Click the “loop” button to automatically repeat the same lesson until user’s lesson points run out
+    // Click the “auto” button to automatically play through one lesson
+    // Manually tap the screen to go through one (of seven) character turns in a lesson
+  // Accept user input
+  // Lessons will proceed
 
 // Constants
 
