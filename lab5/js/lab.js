@@ -1,6 +1,27 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Task 1
+// JavaScript Console with Data About Primary Method of Transportation
+// Daisy Ly
+// April 2025
+
+// Define Variables
+make = "Honda";
+model = "Odyssey";
+color = "Black";
+year = 2016;
+var ownIt = false;
+
+// Calculate
+age = 2025 - year;
+
+// Output 
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
+
+
+
 
 // Constants
 

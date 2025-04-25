@@ -7,3 +7,64 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
+
+#content {
+  background-color: #1f405b;
+  width: 1450px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 15 px;
+  border: ridge 7px #25126b;
+  font-size: 20px;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 7px #ffe600;
+    background-color: #dafcff;
+}
+
+h1 {
+  font-family: serif;
+  font-style: oblique;
+  font-weight: 1000;
+  color: #ffffff;
+  font-size: 250%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#15489b;
+    font-variant: small-caps;
+}
+
+p {
+  font-family: cursive;
+  font-size:85%;
+  text-indent: 30px;
+  margin-left: 10px;
+}
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
+
+a {
+color: #ffffff;
+}
+
+.hondaodyssey2016 {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
