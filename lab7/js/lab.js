@@ -1,5 +1,5 @@
 // Task 2
-// JavaScript Name Scramble
+// JavaScript sortUserName
 // Daisy Ly
 // May 2025
 
@@ -12,7 +12,12 @@ function sortUserName() {
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
     // Sort the array
-    var nameArraySort = nameArray.sort();
+    var nameArraySort = nameArray.sort(function(a,b) {
+        a = a.toLowerCase();
+        b = b.toLowerCase();
+        if (a==b) return 0;
+        return a < b ? -1: 1;
+    });
     console.log("nameArraySort =", nameArraySort);
     // Join the array back to a string
     var nameSorted = nameArraySort.join('');
