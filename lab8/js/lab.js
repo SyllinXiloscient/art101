@@ -5,6 +5,7 @@
 
 // Create array of numbers and assign it to a variable
 array = [1, 20, 35, 40, 55];
+console.log("My array", array);
 
 // Create a named function with a calculation
 function isTotal (x) {
