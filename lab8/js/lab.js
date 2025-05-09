@@ -29,3 +29,12 @@ var mapResults = array.map(function(x){
 
 // Set variable to results of map function and print
 console.log("Array*3: ", mapResults);
+
+
+
+
+// Display callback function with jQuerys
+var mapResults = "My map results: " + "[" + mapResults + "]";
+
+// Use jQuery to select the element by its ID and set the HTML content
+$("#output").html(mapResults);
