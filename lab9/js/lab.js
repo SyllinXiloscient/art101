@@ -13,7 +13,7 @@ $("#problems").append("We both had problems trying to make the buttons do someth
 
 
 // Add button to reflection section
-$("#reflection").append("My partner, Helwa Halloum, and I met up at 2 PM on Monday, May 12th, to work on the lab together.");
+$("#reflection").append("My partner, Helwa Halloum, and I met up at RCC dining hall at 2 PM on Monday, May 12th, to work on the lab together.");
 
 // Add button to results section
 $("#results").append("View the results on this page!");
