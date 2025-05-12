@@ -9,33 +9,33 @@
   }
   
   #content {
-    background-color: #021352;
+    background-color: #40508c;
     width: 1450px;
     min-height: 300px;
     padding: 10px;
     margin: 15 px;
-    border: ridge 7px #bbbbbb;
+    border: ridge 7px #ffde3c;
     font-size: 20px;
   }
   
   .minor-section {
       padding: 10px;
       margin-bottom: 10px;
-      border: double 10px #b8dcdd;
-      background-color: #ffffff;
+      border: double 10px #4e1188;
+      background-color: #bababa;
   }
   
   h1 {
     font-family: serif;
     font-style: oblique;
     font-weight: 1000;
-    color: #ce3b3b;
+    color: #000000;
     font-size: 250%;
   }
   
   h2 {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      color:hsl(216, 71%, 75%);
+      color:#6d8ec0;
       font-variant: small-caps;
   }
   
@@ -53,5 +53,12 @@
   }
   
   a {
-  color: #ffffff;
+  color: #000000;
+  }
+
+  .special {
+    background-color: #003e15;
+    border: dotted 7px #000000; 
+    color: #c6c5c5;
+    font-weight: bold;
   }

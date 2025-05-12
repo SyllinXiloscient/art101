@@ -37,4 +37,4 @@ console.log("Array*3: ", mapResults);
 var mapResults = "My map results: " + "[" + mapResults + "]";
 
 // Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(mapResults);
+$("#output").html(challenge);
