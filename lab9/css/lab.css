@@ -58,7 +58,7 @@
 
   .special {
     background-color: #004d1a;
-    border: dotted 7px #000000; 
+    border: dashed 5px #000000; 
     color: #c6c5c5;
     font-weight: bold;
   }
