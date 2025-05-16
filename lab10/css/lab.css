@@ -49,6 +49,39 @@
   color: #d30000;
   }
 
+  #convo {
+    background-color: #585858;
+    margin: 10px auto;
+    padding: 0px;
+    border-radius: 15px;
+    border: solid 1px #000000;
+    max-width: 450px;
+    text-align: right;
+    overflow: hidden;
+  }
+
+  #convo-header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 5px;
+  }
+
+  #convo-thumb {
+    border-radius: 50%;
+    width: 50px;
+  }
+  
+  #convo-thumb img {
+    border-radius: 50%;
+    width: 50px;
+  }
+
+  #convo button {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  
   .text p {
     display: inline-block;
     max-width: 60%;
@@ -59,4 +92,39 @@
     color: #ff0000;
     font-family: sans-serif;
     font-size: 0.8em;
+    text-indent: 0px;
   }
+
+    #convo1 {
+    background-color: #585858;
+    margin: 10px auto;
+    padding: 0px;
+    border-radius: 15px;
+    border: solid 1px #000000;
+    max-width: 450px;
+    text-align: right;
+    overflow: hidden;
+  }
+
+  #convo-header1 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 5px;
+  }
+
+  #inputdisplay {
+    text-align: center;
+  }
+
+  .text:nth-child(odd) {
+    text-align: left;
+  }
+  
+  .text:nth-child(even) p {
+    text-align: right;
+    background-color: #bababa;
+    color: #313188;
+    text-align: left;
+  }
+  
