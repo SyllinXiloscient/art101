@@ -148,3 +148,11 @@ a {
 #output2 {
   text-align: right;
 }
+
+.sparkles p{
+  font-size: larger;
+  color: #4e1188;
+  text-align: center;
+  margin-left: 0px;
+  text-indent: 0px;
+}
