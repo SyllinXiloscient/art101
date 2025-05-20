@@ -48,5 +48,5 @@ $("#randomizeButton").click(function(){
     userNameRandomized = shuffleString(charArray);
     
     // Append a new div to our output div
-    $("#glitchoutput").html('<div class="text"><p>' + userNameRandomized + '</p></div>');
+    $("#randomizeoutput").html('<div class="text"><p>' + userNameRandomized + '</p></div>');
 });
