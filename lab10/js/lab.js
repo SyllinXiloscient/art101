@@ -43,3 +43,8 @@ $("#make-convo1").click(function(){
     // Append a new div to our output div
     $("#output1").append('<div class="text"><p>' + newText + '</p></div>');
 });
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output2").html('<div class="text1"><p>' + "Sebastian Michaelis (Black Butler)" + '</p></div>');
+});

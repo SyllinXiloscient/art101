@@ -83,3 +83,9 @@ function main() {
 
 // let's get this party started
 main();
+
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output1").html('<div class="text1"><p>' + "Lilia Vanrouge (Twisted Wonderland)" + '</p></div>');
+});

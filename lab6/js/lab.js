@@ -24,3 +24,8 @@ document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
 // this little trick allows us to write an object to the document
 document.writeln("My Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output1").html('<div class="text1"><p>' + "Willmesh (Fragaria Memories)" + '</p></div>');
+});

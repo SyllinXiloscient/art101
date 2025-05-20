@@ -30,3 +30,8 @@ function sortUserName() {
 // Output
 document.writeln("I fixed your name >:)). Better appreciate it: ",
     sortUserName(), "</br>");
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output1").html('<div class="text1"><p>' + "Hanamaruobake (Sanrio)" + '</p></div>');
+});

@@ -19,3 +19,8 @@ function main() {
 
 // let's get this party started
 main();
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output1").html('<div class="text1"><p>' + "Malleus Draconia (Twisted Wonderland)" + '</p></div>');
+});

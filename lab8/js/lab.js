@@ -37,4 +37,9 @@ console.log("Array*3: ", mapResults);
 var mapResults = "My map results: " + "[" + mapResults + "]";
 
 // Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(challenge);
+$("#output").html(mapResults);
+
+$("#reveal").click(function(){
+    // Append a new div to our output div
+    $("#output1").html('<div class="text1"><p>' + "Shoto Todoroki (My Hero Academia)" + '</p></div>');
+});

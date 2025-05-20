@@ -2,63 +2,84 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+#content {
+  background-color: #df0c0c;
+  width: 1450px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 15 px;
+  border: ridge 7px #e6e6e6;
+  font-size: 20px;
+}
+
+.minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
-  
-  #content {
-    background-color: #df0c0c;
-    width: 1450px;
-    min-height: 300px;
-    padding: 10px;
-    margin: 15 px;
-    border: ridge 7px #e6e6e6;
-    font-size: 20px;
-  }
-  
-  .minor-section {
-      padding: 10px;
-      margin-bottom: 10px;
-      border: double 10px #fa79a4;
-      background-color: #fff7b3;
-  }
-  
-  h1 {
-    font-family: serif;
-    font-style: oblique;
-    font-weight: 1000;
-    color: #ffffff;
-    font-size: 250%;
-  }
-  
-  h2 {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      color:#ffa7f6;
-      font-variant: small-caps;
-  }
-  
-  p {
-    font-family: cursive;
-    font-size:85%;
-    text-indent: 30px;
-    margin-left: 10px;
-  }
-  
-  .caption {
-    font-family: cursive;
-    font-size: 77%;
-    text-align: center;
-  }
-  
-  a {
+    border: double 10px #fa79a4;
+    background-color: #fff7b3;
+}
+
+h1 {
+  font-family: serif;
+  font-style: oblique;
+  font-weight: 1000;
   color: #ffffff;
-  }
-  
-  .hondaodyssey2016 {
-    margin: 10px;
-    max-width: 75%;
-    display: block;
-    margin: auto;
-  }
+  font-size: 250%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffa7f6;
+    font-variant: small-caps;
+}
+
+p {
+  font-family: cursive;
+  font-size:85%;
+  text-indent: 30px;
+  margin-left: 10px;
+}
+
+.caption {
+  font-family: cursive;
+  font-size: 77%;
+  text-align: center;
+}
+
+a {
+color: #ffffff;
+}
+
+.hondaodyssey2016 {
+  margin: 10px;
+  max-width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.text1 p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #fff7b3;
+  color: #fa79a4;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-indent: 0px;
+}
+
+#reveal {
+  text-align: right;
+}
+
+#output1 {
+  text-align: right;
+}

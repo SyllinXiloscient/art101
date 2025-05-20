@@ -48,3 +48,24 @@ h2 {
     border:dashed 3px #5C2985;
     background-color: #5dc19c;
   }
+
+.text1 p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #5C2985;
+  color: #44C81A;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-indent: 0px;
+}
+
+#reveal {
+  text-align: right;
+}
+
+#output1 {
+  text-align: right;
+}

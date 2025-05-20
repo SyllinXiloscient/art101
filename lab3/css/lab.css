@@ -108,3 +108,24 @@ a {
   display: block;
   margin: auto;
 }
+
+.text1 p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #b5b4cf;
+  color: #603787;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-indent: 0px;
+}
+
+#reveal {
+  text-align: right;
+}
+
+#output1 {
+  text-align: right;
+}
