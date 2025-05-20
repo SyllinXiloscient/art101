@@ -21,7 +21,7 @@ function sortUserName() {
     console.log("nameArraySort =", nameArraySort);
     // Join the array back to a string
     var nameSorted = nameArraySort.join('');
-    console.log("nameSortedd =", nameSorted);
+    console.log("nameSorted =", nameSorted);
     // Note that I could have done the above lines as a single line:
         // userName.toLower().split("").sort().join("")
     return nameSorted;
