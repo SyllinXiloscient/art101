@@ -11,8 +11,13 @@ function fizzBuzz () {
     for (let i = 1; i <= 200; i++) {
         // Start with empty string to build up
         var str = '';
+        // Task X: Bonus factor
+        if (i % 10 == 0) {
+            console.log("Oratrice Mecanique d'Analyse Cardinale");
+            str += "Oratrice Mecanique d'Analyse Cardinale";
+        }
         // For numbers which are multiples of more than one 3, 5, or 7, print combination instead.
-        if (i % 15 == 0) {
+        else if (i % 15 == 0) {
             console.log("FizzBuzz!");
             str += "FizzBuzz!";
         }
