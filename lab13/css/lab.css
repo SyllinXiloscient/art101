@@ -94,4 +94,11 @@ a {
     color: #e6cbfc;
     font-variant: small-caps;
     font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    column-width: 200px;
+    column-count: 2;
 }
