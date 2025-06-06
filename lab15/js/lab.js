@@ -2,7 +2,7 @@
     Task 3
     JavaScript - AJAX and API
     Daisy Ly
-    May 2025
+    June 2025
 */
 
 $("#activate").click(function(){

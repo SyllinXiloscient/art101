@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 16 - JSON and APIs</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 16 - JSON and APIs</h1>
+			<div class="minor-section">
+                <h2>Challenge</h2>
+                <p>The challenge of this lab is to create a web page for XKCD and style our lab pages.</p>
+			</div>
+
+			<div class="minor-section">
+                <h2>Problems</h2>
+                <p>We had a lot of trouble trying to get our outputs to appear correctly on the lab pages.</p>
+			</div>
+
+			<div class="minor-section">
+                <h2>Reflection</h2>
+                <p>My partner, Helwa Halloum, and I met on discord around 6 PM to work together and help each other on the lab.</p>
+			</div>
+
+			<div class="minor-section">
+                <h2>Results</h2>
+                <p>View the results on this page!</p>
+                <div id="output">
+                    <section class="comic-section">
+                        <h3>Woodpecker</h3>
+                        <img src="https://imgs.xkcd.com/comics/woodpecker.png" alt="If you don't have an extension cord I can get that too. Because we're friends!  Right?" title="If you don't have an extension cord I can get that too. Because we're friends! Right?">
+                        <p></p>
+                        <button id="prev">Previous</button> <button id="next">Next</button>
+                    </section>
+                </div>
+			</div>
+
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<ul>
+				<li><a href="https://endertux.github.io/ART101/lab16/index.html">Helwa's Lab 16 Page!</a></li>
+				<li><a href="https://syllinxiloscient.github.io/art101/index.html">Back to Homepage</a></li>
+			</ul>
+            <div id="reveal">
+                <button id="reveal">Reveal Character</button>
+                <div id="output1"></div>
+            </div>
+		</nav>
+	</main>
+</body>
+</html>
